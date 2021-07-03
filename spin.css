@@ -7,3 +7,82 @@
     font-weight: bold;
     font-size:50px;
 }
+
+.card{
+    width:400px;
+    height:350px;
+    margin-left:50px;
+}
+.headcreate{
+    margin-left:80px;
+  
+}
+.box{
+    background-image:url("image/bg-img-2-sec.jpg");
+    background-size:cover;
+}
+.container-boxd{
+    background-image:url("image/bg-img-3-sec.jpg");
+    background-size:cover;
+}
+.manage{
+    background-image:url("image/bg-img-4-sec.jpg");
+    background-size:cover;
+}
+.image-fluid{
+    max-width:100%;
+    height:auto;
+}
+.text-indent{
+    text-indent: -2px;
+}
+.display-1{
+    font-weight:600;
+    line-height: 1.15;
+}
+.p{
+    margin-block-start: 1em;
+      margin-block-end: 1em;
+}
+.bg-black{
+    background-color:black;
+}
+.fs{
+    font-size:4.345rem;
+}
+.partner-icon-opacity p, .partner-icon-opacity img{
+    opacity: 0.5;;
+
+}
+.list-unstyled{
+    list-style:none;
+    padding-left:0;
+}
+a{
+    text-decoration: none;
+    background-color:transparent;
+}
+.text-600{
+    color:gray;
+}
+.badge-soft-primary{
+    color:blue;
+    background-color:rgb(149, 159, 185);
+}
+ a i{
+     width:875rem;
+    font-size:inherit;
+}
+.text-fb{
+    color:blue;
+}
+.text-youtube{
+    color:red;
+}
+.text-twitter{
+    color:lightblue;
+
+}
+.text-googlep{
+    color:rgb(230, 81, 81);
+}

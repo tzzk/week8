@@ -5,22 +5,27 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="spin.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+        
+        
     </head>
     <body id="page-top">
         <!--Navbar-->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="image/spin_logo.png" alt="spinimage" width="100px" /></a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav" type="button">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top  ">
+            <div class="container bg-dark mt-0">
+                <a class="navbar-brand ml-3 py-2" href="#page-top"><img src="image/spin_logo.png" alt="spinimage" width="100px" /></a>
+                <button class="navbar-toggler mr-4" data-bs-toggle="collapse" data-bs-target="#mainnav" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse m-auto" id="mainnav">
-                    <ul class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse mr-auto" id="mainnav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item active"><a class="nav-link" href="#">Page</a></li>
                         <li class="nav-item "><a class="nav-link" href="#">Documentation</a></li>
                         <li class="nav-item "><a class="nav-link" href="#">Contents</a></li>
@@ -37,83 +42,429 @@
 
         <!--body-->
         <section class="masthead">
-            <div class="container">
-                <div class="row">
+            <div class="container py-5">
+                <div class="row flex-between-center">
                     <div class="col-md-6 py-5">
-                        <div class="h1 heading1">Design &Code|Better Together.</div>
+                        <div class="h1 heading1">Design &<span class="typed cursor typed-cursor--blink">Code</span>|Better Together.</div>
                         <div class="text-secondary py-3"style="font-size:25px;">Manipulate and test the actual thing, together in real time, visually and in-context.</div>
                         <button class="btn btn-primary py-3 my-5"style="font-size:22px;">Get started -it's free</button>
                     </div>                 
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 px-0">
                         <img src="image/banner-image.jpg" name="image-responsive" weight="100%" height="400px">
 
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="logosection">
-            <div class="container ">
-                <div class="row">
-                <div class="col">
-                    <img src="image/1.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/2.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/3.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/5.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/7.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/8.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/9.png" weight="50px" height="30px" name="image-responsive">
-                </div>
-                <div class="col">
-                    <img src="image/10.png" weight="50px" height="30px" name="image-responsive">
-                </div>
+                <div class="row aling-item-center text-center mt-4">
                 
-                 
+                    <div class="col">
+                        <img class="image-fluid"src="image/1.png" width="100" name="image-responsive">
+                    </div>
+                    
+                    <div class="col">
+                        <img  class="image-fluid"src="image/2.png" width="100" name="image-responsive">
+                    </div>
+                    <div class="col">
+                        <img class="image-fluid" src="image/3.png" width="100" name="image-responsive">
+                    </div>
+                    
+                    <div class="col">
+                        <img class="image-fluid" src="image/5.png" width="100" name="image-responsive">
+                    </div>
+                    <div class="col">
+                        <img  class="image-fluid" src="image/7.png" width="100" name="image-responsive">
+                    </div>
+                    <div class="col">
+                        <img class="image-fluid" src="image/8.png" width="100" name="image-responsive">
+                    </div>
+                    <div class="col">
+                        <img class="image-fluid" src="image/9.png" width="100"  name="image-responsive">
+                    </div>
+                    
+                    <div class="col">
+                        <img class="image-fluid" src="image/10.png" width="100"  name="image-responsive">
+                    </div>
+                   
+                
+                
                 </div>
-               
             </div>
         </section>
+       
+           
+                
+               
+           
+        
         <section id="create">
-            <div class="container my-4 py-5"style="background-color:rgb(247, 168, 181)">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h1 style="font-size:50px;background-color:rgb(247, 168, 181)">Create</h1>
-                        <div class="card ml-4">
+            <div class="container my-4 py-5 box">
+                <div class="p-xl-6 p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-5">
+                            <div class="mx-n3">
+                                <h1 class="display-1" style="font-weight:bold;" >Create</h1>
+                            </div>
                             
-                            <div class="card-body px-4">
-                                <h4 class="card-title">Mailbluster</h4>
-                                <p class="card-text">
-                                    We’ve saved hours on every project with Spin, and the amount of time we’ve saved scales directly with the size of the
-                                    project - the bigger the project, the more time we save with it.
-
-                                </p>
-
-                                <img src="image/dues.jpg" class="rounded-circle" width="80px" height="80px">
-                                <span class="h5">
-                                    Dues Stark<br><span class="text-secondary">Art Director</span>
-                                </span>
+                            <div class="bg-white  p-lg-4 mt-lg-7 mx-n3">
+                                <img class="image-fluid" src="image/12.png" alt style="max-width: 140px;"> 
                                 
-                                
+                                    
+                                    <p class="my-4">
+                                            We’ve saved hours on every project with Spin, and the amount of time we’ve saved scales directly with the size of the
+                                            project - the bigger the project, the more time we save with it.
+
+                                    </p>
+                                    
+                                            
+                               
+                                <div class="media">
+                                    <img src="image/dues.jpg" class="image-fluid rounded-circle mr-3" width="48" alt>
+                                    <div class="media-body">
+                                            <p class="mb-0 font-weight-bold">Dues Stark</p> 
+                                            <p class="font-weight-semi-bold mb-0 text-uppercase fs--1 ls text-600">Art Director</p>
+                                    </div>                                  
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <div class="mx-n3">
+                                <video muted="muted" playsinline="playsinline"style="width:100%;height:100%;display: block;margin:0px;" , controls>
+                                    <source src="image/bg-video.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                       <source src="image/bg-video.mp4" type="video/mp4">
+                </div>
+            </div>
+        </section>
+        <!--deploy-->
+        <section>
+            <div class="container container-boxd">
+                <div class="bg-holder" ></div>
+                <div class="p-xl-6 p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-xxl-3 col-lg-4">
+                            <div class="mx-n3">
+                                <h1 class="display-1" style="font-weight:bold;">Deploy</h1>
+                            </div>
+                        
+                            <div class="bg-white  p-lg-4 mt-lg-7 mx-n3">
+                                <img class="image-fluid" src="image/13.png" alt style="max-width: 140px;">
+                        
+                        
+                                <p class="my-4">
+                                    Spin is fast. Files are always up to date. It’s easy to share designs across the organization, so collaboration is easy.
+                                </p>
+                        
+                        
+                        
+                                <div class="media">
+                                    <img src="image/qouta-avatar-img2.jpg" class="image-fluid rounded-circle mr-3" width="48" alt>
+                                    <div class="media-body">
+                                        <p class="mb-0 font-weight-bold">Jason Green</p>
+                                        <p class="font-weight-semi-bold mb-0 text-uppercase fs--1 ls text-600">Sr.Designer</p>
+                                    </div>
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-8 col-lg-7">
+                            <div class="carousel slide" data-bs-ride="carousel" id="carouselname">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active"><img src="image/slide-1.jpg" class="d-block w-100"alt=""></div>
+                                        <div class="carousel-item"><img src="image/slide-2.png" class="d-block w-100" alt=""></div>
+                                        <div class="carousel-item"><img src="image/slide-3.jpg" class="d-block w-100" alt=""></div>
+                                    </div>
+                                    <a class="carousel-control-next" data-bs-slide="next" role="button" href="#carouselname">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-prev" data-bs-slide="prev" role="button" href="#carouselname">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!--manage-->
+        <section>
+            <div class="container my-4 py-5 manage">
+                <div class="p-xl-6 p-4">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-5">
+                            <div class="mx-n3">
+                                <h1 class="display-1" style="font-weight:bold;">Manage</h1>
+                            </div>
+        
+                            <div class="bg-white  p-lg-4 mt-lg-7 mx-n3">
+                                <img class="image-fluid" src="image/14.png" alt style="max-width: 140px;">
+        
+        
+                                <p class="my-4">
+                                    We’ve saved hours on every project with Spin, and the amount of time we’ve saved scales
+                                    directly with the size of the
+                                    project - the bigger the project, the more time we save with it.
+        
+                                </p>
+        
+        
+        
+                                <div class="media">
+                                    <img src="image/qouta-avatar-img3.jpg" class="image-fluid rounded-circle mr-3" width="48" alt>
+                                    <div class="media-body">
+                                        <p class="mb-0 font-weight-bold">Kate Winslet</p>
+                                        <p class="font-weight-semi-bold mb-0 text-uppercase fs--1 ls text-600">CEO</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+                            <div class="mx-n3">
+                               <img class="image-fluid" src="image/homepage-3rdsec-img (1).jpg">
+                            </div>
+        
+                            <div class="row">
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <h5>Prototyping</h5>
+                                    <p>
+                                        Bring your ideas to life faster in animated prototypes that feel like the real thing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--deployandscalesemlessly-->
+        <section>
+            <div class="container">
+                <div class="row  my-5">
+                    <div class="col px-lg-0">
+                        <p class="text-monospace text-uppercase text-muted" >Documentation</p>
+                        <h1 class="display-1 text-indent">Deploy and Scale Seamlessly</h1>
+                        <p class=" fs-4 w-lg-50">
+                            Spin helps teams create, test, and ship better designs from start to finish. Our optimized code base saves your team
+                            time when designing and coding statics websites or landing pages.
+                        </p>
+
+                </div>
+                <div class="mx-n3">
+                    <div class="row justify-content-left mt-4" >
+                        <div class="col-lg-auto" style="width:32%;opacity: 1;">
+                            <div class="p-4 bg-success">
+                                
+                                <img src="image/university grad.jpg" width="40" class="image-fluid" alt>
+                                <h5 class="mt-4">Knowledge Base</h5>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nostrum quod praesentium enim quam quae at
+                                    voluptate natus quasi sed ab.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-auto" style="width:32%;opacity: 1;">
+                            <div class="p-4 bg-secondary">
+                                <img src="image/university grad.jpg" width="40" class="image-fluid" alt>
+                                <h5 class="mt-4">Knowledge Base</h5>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nostrum quod praesentium enim quam quae at
+                                    voluptate natus quasi sed ab. 
+                                </p>
+                        
+                            </div>
+                        </div>
+                        <div class="col-lg-auto" style="width:32%;opacity: 1;">
+                            <div class="p-4 bg-warning">
+                                <img src="image/university grad.jpg" width="40" class="image-fluid" alt>
+                                <h5 class="mt-4">Knowledge Base</h5>
+                                <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, nostrum quod praesentium enim quam quae at
+                                voluptate natus quasi sed ab.
+                                </p>
+                        
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--close-->
+        <section class="bg-black">
+            <div class="container">
+                <div class="row justify-content-between py-5">
+                    <div class="col-xxl-5 col-lg-6">
+                        <h1 class="display-1 text-white text-indent fs">Set up your site,<br> Pick a plan later</h1>
+                        <p class="text-white fs-4">Try Spin free for 14 days, no credit card required. Enterprise-grade solutions for high traffic websites, and large
+                        businesses.</p>
+                        <a class="btn btn-primary py-3 mt-4">"Get Started"<span class="font-weight-normal">-it's free</span></a>
+                    </div>
+
+                    <div class="col-xxl-5 col-lg-6 partner-icon-opacity">
+                        <p class="text-uppercase text-monospace text-white  mt-8 fs-md-5 fs-0">TRANSFORMING THE DESIGN PROCESS AT</p>
+                        <div class="row aling-item-center">
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/15.png" class="image-fluid " alt width="150">
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/16.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/17.png" class="image-fluid " width="200" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/18.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/19.png" class="image-fluid " width="200" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/20.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/21.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/22.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/23.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/24.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/25.png" class="image-fluid " width="150" alt>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-mg-3 col-4 mt-5">
+                                <img src="image/26.png" class="image-fluid " width="200" alt>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row" >
+                    <div class="col-lg-3 col-6 mt-4">
+                        <p class="font-weight-bold"style="font-size:2rem;">Products</p>
+                        <ul class="list-unstyled"style="font-size:1rem;">
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Product Overview</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Tools & Integration</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Documentation</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Editor</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Release Notes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6 mt-4">
+                        <p class="font-weight-bold" style="font-size:2rem;">Company</p>
+                        <ul class="list-unstyled"style="font-size:1rem;">
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">About</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Blog</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Leadership</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Marketplace</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">"Careers"<span class="badge badge-pill badge-soft-primary"> We are hiring!</span></a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Terms of service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6 mt-4">
+                        <p class="font-weight-bold" style="font-size:2rem;">Contact& support</p>
+                        <ul class="list-unstyled" style="font-size:1rem;">
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Contact</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Support</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Sale</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Report Abuse</a></li>
+                            <li class="nav-item mt-2"><a class="text-600" href="#!">Forum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-6 mt-4" >
+                        <p class="font-weight-bold" style="font-size:2rem;">Social</p>
+                        <ul class="list-unstyled" style="font-size:2rem;">
+                            <li class="nav-item mt-2"><a class="text-fb" href="#!"><i class="fa fa-facebook-square"></i></a></li>
+                            <li class="nav-item mt-2"><a class="text-twitter" href="#!"><i class="fa fa-twitter"></i></a></li> 
+                            <li class="nav-item mt-2"><a class="text-googlep" href="#!"><i class="fa fa-google-plus-square"></i></a></li>
+                            <li class="nav-item mt-2"><a class="text-youtube" href="#!"><i class="fa fa-youtube"></i></a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row row-border-top">
+                    <div class="col py-4 ">
+                        <p class="mb-0">
+                            @2019
+                            <a class="test-body font-weight-bold" href="https://wwww.themewagon.com/" target="_blank">Themeawagon</a> " , Inc. All rights reserved."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     </body>
 </html>
